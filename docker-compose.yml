@@ -1,4 +1,3 @@
-root@miko-pbx-u13930:/opt/app/mikopbx# cat docker-compose.yml
 services:
   mikopbx:
     container_name: "mikopbx"
@@ -7,7 +6,7 @@ services:
     cap_add:
       - NET_ADMIN
     entrypoint: "/sbin/docker-entrypoint"
-    hostname:  "mikopbx-in-a-docker"
+    hostname: "mikopbx-in-a-docker"
     volumes:
       - /var/spool/mikopbx/cf:/cf
       - /var/spool/mikopbx/storage:/storage
