@@ -38,9 +38,6 @@ services:
       # Web Admin User Password
       - WEB_ADMIN_PASSWORD=1T$huttlers
 
-      # REDIS PORT
-      - REDIS_PORT=6379
-
       # EMAIL SETTINGS
       - MAIL_SMTP_HOST=smtp.gmail.com
       - MAIL_SMTP_PORT=587
