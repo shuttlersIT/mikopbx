@@ -1,3 +1,4 @@
+root@miko-pbx-u13930:/opt/app/mikopbx# cat docker-compose.yml
 services:
   mikopbx:
     container_name: "mikopbx"
@@ -36,7 +37,7 @@ services:
       - WEB_ADMIN_LOGIN=itsupport
 
       # Web Admin User Password
-      - WEB_ADMIN_PASSWORD=1T$huttlers
+      - WEB_ADMIN_PASSWORD="1T$huttlers"
 
       # EMAIL SETTINGS
       - MAIL_SMTP_HOST=smtp.gmail.com
@@ -45,10 +46,6 @@ services:
       - MAIL_SMTP_PASSWORD=idtugwnivjosmzzm
       - MAIL_SMTP_FROM_USERNAME="Shuttlers-IT"
       - MAIL_SMTP_SENDER_ADDRESS="itsupport@shuttlers.ng"
-
-      # SYSTEM EMAIL
-      - SYSTEM_NOTIFICATIONS_EMAIL=it@shuttlers.ng
-      - MAIL_SMTP_SENDER_ADDRESS=itsupport@shuttlers.ng
 
       # SYSTEM EMAIL
       - SYSTEM_NOTIFICATIONS_EMAIL=it@shuttlers.ng
