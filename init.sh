@@ -7,3 +7,6 @@ sudo mkdir -p /var/spool/mikopbx/storage
 
 # Granting the created user ownership of the directories
 sudo chown -R www-user:www-user /var/spool/mikopbx/
+
+export ID_WWW_USER=$(id -u www-user)
+export ID_WWW_GROUP=$(id -g www-user)
