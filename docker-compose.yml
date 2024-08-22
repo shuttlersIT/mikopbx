@@ -46,7 +46,7 @@ services:
       - MAIL_SMTP_PORT=587
       - MAIL_SMTP_USERNAME=itsupport@shuttlers.ng
       - MAIL_SMTP_PASSWORD=idtugwnivjosmzzm
-      - MAIL_SMTP_FROM_USERNAME=itsupport@shuttlers.ng
+      - MAIL_SMTP_FROM_USERNAME=Shuttlers-IT
       - MAIL_SMTP_SENDER_ADDRESS=itsupport@shuttlers.ng
 
       # SYSTEM EMAIL
