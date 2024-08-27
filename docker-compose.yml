@@ -49,3 +49,7 @@ services:
 
       # SYSTEM EMAIL
       - SYSTEM_NOTIFICATIONS_EMAIL=it@shuttlers.ng
+
+volumes:
+  cf:
+  storage:
