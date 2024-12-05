@@ -34,10 +34,10 @@ services:
       - PBX_TIMEZONE=Africa/Lagos
 
       # Web Admin User
-      - WEB_ADMIN_LOGIN=itsupport
+      - WEB_ADMIN_LOGIN=${WEB_ADMIN_LOGIN}
 
       # Web Admin User Password
-      - WEB_ADMIN_PASSWORD=$WEB_ADMIN_PASSWORD 
+      - WEB_ADMIN_PASSWORD=${WEB_ADMIN_PASSWORD}
       
       # "Shuttlers1$"
 
