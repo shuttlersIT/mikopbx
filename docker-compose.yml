@@ -21,8 +21,8 @@ services:
 
       # Change the default SSH port to 23
       - SSH_PORT=23
-      #- SSH_LOGIN=admin
-      #- SSH_PASSWORD=admin
+      - SSH_LOGIN=${SSH_LOGIN}
+      - SSH_PASSWORD=${SSH_PASSWORD}
 
       # Change the default WEB port to 8080
       - WEB_PORT=8080
@@ -45,7 +45,7 @@ services:
       - MAIL_SMTP_HOST=smtp.gmail.com
       - MAIL_SMTP_PORT=587
       - MAIL_SMTP_USERNAME=itsupport@shuttlers.ng
-      - MAIL_SMTP_PASSWORD=idtugwnivjosmzzm
+      - MAIL_SMTP_PASSWORD=${MAIL_SMTP_PASSWORD}
       - MAIL_SMTP_FROM_USERNAME="Shuttlers-IT"
       - MAIL_SMTP_SENDER_ADDRESS="itsupport@shuttlers.ng"
 
