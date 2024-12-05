@@ -37,7 +37,9 @@ services:
       - WEB_ADMIN_LOGIN=itsupport
 
       # Web Admin User Password
-      #- WEB_ADMIN_PASSWORD="1T$huttlers"
+      - WEB_ADMIN_PASSWORD=$WEB_ADMIN_PASSWORD 
+      
+      # "Shuttlers1$"
 
       # EMAIL SETTINGS
       - MAIL_SMTP_HOST=smtp.gmail.com
